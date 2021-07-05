@@ -5,6 +5,7 @@
 .first-section{
     background-image: url("images/img3.jpg");
     background-repeat: no-repeat;
+    
    
     
 }
@@ -75,16 +76,47 @@ section{
     display: flex;
     margin-left: 200px;
     width: 80%;
+    padding-left: 5%;
+    text-align: justify;
+   
     
     
 }
 
+.about1{
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
 .about-display{
     width: 30%;
-    padding-left: 1%;
+    padding-left: 3%;
 }
 .about img{
     width: 100%;
-    height: 400px;
+    height: 480px;
+    padding-top: 13px;
+}
+
+.services{
+    background-color: rgb(136, 135, 139);   
+}
+.services-content{
+    margin: 2px, auto;
+    width: 80%;
+    
+}
+.services-flex{
+    display: flex;
+    width: 33%;
+}
+.service-item{
+border: 1px solid black;
+margin: 5px;
+}
+.s-line{
+    margin: 16px auto;
+    width: 55px;
+    height: 1px;
+    background-color: #333;
 }
     
